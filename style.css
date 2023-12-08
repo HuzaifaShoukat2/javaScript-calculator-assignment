@@ -20,9 +20,7 @@ body {
 .display {
     margin-bottom: 10px;
 }
-input {
-    font-size: 1.4rem;
-}
+
 
 #result {
     width: 100%; /* Set width to 100% */
@@ -32,6 +30,9 @@ input {
     border: none;
     border-radius: 5px;
     padding: 5px;
+    text-align: right;
+    font-size: 1.4rem;
+    
 }
 
 .bt-row {
