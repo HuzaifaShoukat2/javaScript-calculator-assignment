@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #303030;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.calculator {
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #424242;
+}
+
+.display {
+    margin-bottom: 10px;
+}
+input {
+    font-size: 1.4rem;
+}
+
+#result {
+    width: 100%; /* Set width to 100% */
+    height: 40px;
+    background-color: #616161;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.bt-row {
+    display: flex;
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #424242;
+    color: #fff;
+}
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+button.operator {
+    background-color:  #303030;
+    color: white; 
+    font-size: 1.5rem;/* Blue color for operators */
+}
+
+
+button.equal {
+    
+    background-color: #2196F3; /* Blue color for equal button */
+    border-radius: 5px; /* Add border-radius for consistency */
+}
